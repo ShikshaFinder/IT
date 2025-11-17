@@ -37,7 +37,7 @@ const services = [
 export const ServicesSection = () => {
   return (
     <section id="services" className="py-20 md:py-32 bg-muted/30">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 lg:px-12">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
             Our Services
@@ -45,6 +45,21 @@ export const ServicesSection = () => {
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Comprehensive IT solutions designed to drive your business forward
           </p>
+        </div>
+
+        {/* Pricing Highlight Banner */}
+        <div className="mb-12 p-6 rounded-lg border-2 border-primary/30 bg-gradient-to-r from-primary/5 to-primary/10 text-center">
+          <div className="flex flex-col md:flex-row items-center justify-center gap-4">
+            <div className="flex items-baseline gap-2">
+              <span className="text-4xl md:text-5xl text-muted-foreground ">Starting from Just</span>
+              <span className="text-xl  text-primary">4999</span>
+            </div>
+            <div className="h-px md:h-8 md:w-px bg-border"></div>
+            <div className="text-center md:text-left">
+              <p className="text-lg font-semibold">Website Building Package</p>
+              <p className="text-sm text-muted-foreground">Includes hosting & free professional email</p>
+            </div>
+          </div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

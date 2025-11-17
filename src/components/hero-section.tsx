@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Code2, Zap, Server } from 'lucide-react';
 
@@ -25,7 +26,7 @@ export const ITHeroSection = ({
   icon = <Server className="size-6" />,
   heading = "Transform Your Business",
   subheading = "with Cutting-Edge Technology Solutions",
-  description = "We deliver innovative IT solutions that drive digital transformation. From cloud infrastructure to custom software development, our expert team helps businesses scale and succeed in the digital age.",
+  description = "We deliver innovative IT solutions that drive digital transformation. Specializing in Kubernetes, AI agents, scalable Next.js applications, and cybersecurity solutions. Our expert team helps businesses scale and succeed in the digital age.",
   primaryButton = {
     text: "Get Started",
     icon: <ArrowRight className="ml-2 size-4" />,
@@ -71,6 +72,16 @@ export const ITHeroSection = ({
             <p className="mx-auto max-w-screen-md text-center text-base text-muted-foreground md:text-lg lg:text-xl">
               {description}
             </p>
+
+            {/* <div className="mx-auto max-w-2xl text-center">
+              <div className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-primary/10 border border-primary/20">
+                <span className="text-2xl font-bold text-primary">₹4,999</span>
+                <span className="text-sm text-muted-foreground">Starting from</span>
+              </div>
+              <p className="mt-3 text-sm text-muted-foreground">
+                Website building with hosting & free professional email included
+              </p>
+            </div> */}
             
             <div className="flex flex-col items-center justify-center gap-3 pb-8 pt-3 sm:flex-row">
               <Button size="lg" asChild className="w-full sm:w-auto">
@@ -94,10 +105,13 @@ export const ITHeroSection = ({
           </div>
           
           <div className="relative mx-auto w-full max-w-screen-lg overflow-hidden rounded-2xl bg-black/10">
-            <img
+            <Image
               src={imageSrc}
               alt={imageAlt}
+              width={1200}
+              height={524}
               className="h-full max-h-[524px] w-full rounded-2xl object-cover shadow-2xl ring-1 ring-border"
+              priority
             />
             <div className="absolute inset-0 rounded-2xl bg-gradient-to-t from-background/80 via-transparent to-transparent"></div>
           </div>

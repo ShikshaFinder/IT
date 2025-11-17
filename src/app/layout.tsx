@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "TechSolutions - IT Firm | Technology Solutions & Consulting",
-  description: "Leading IT solutions provider offering cloud computing, cybersecurity, software development, and IT consulting services. Transform your business with cutting-edge technology.",
+  title: "Flavi Dairy IT Solutions | Kubernetes, AI Agents & Cybersecurity",
+  description: "Leading IT solutions provider specializing in Kubernetes infrastructure, AI agents, scalable Next.js applications, and comprehensive cybersecurity solutions. Transform your business with cutting-edge technology.",
 };
 
 export default function RootLayout({
