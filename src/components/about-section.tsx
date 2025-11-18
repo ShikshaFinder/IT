@@ -3,7 +3,7 @@ import { Users, Award, TrendingUp } from 'lucide-react';
 
 const stats = [
   { icon: <Users className="size-6" />, value: '500+', label: 'Happy Clients' },
-  { icon: <Award className="size-6" />, value: '15+', label: 'Years Experience' },
+  { icon: <Award className="size-6" />, value: '20+', label: 'Years Experience' },
   { icon: <TrendingUp className="size-6" />, value: '1000+', label: 'Projects Completed' },
 ];
 
