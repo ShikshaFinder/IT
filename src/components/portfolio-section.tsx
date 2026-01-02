@@ -4,13 +4,6 @@ import { ExternalLink } from 'lucide-react';
 
 const projects = [
   {
-    title: 'Shiksha Finder Platform',
-    description: 'Complete educational platform development for finding and connecting with educational institutions',
-    image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=800&auto=format&fit=crop',
-    category: 'Platform Development',
-    url: 'https://platform.shikshafinder.com',
-  },
-  {
     title: 'Women at Work',
     description: 'Empowering platform connecting women professionals and opportunities',
     image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800&auto=format&fit=crop',
@@ -51,6 +44,48 @@ const projects = [
     image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800&auto=format&fit=crop',
     category: 'Web Development',
     url: 'https://euronovas.com',
+  },
+  {
+    title: 'Flavi Dairy B2B Platform',
+    description: 'B2B e-commerce platform for dairy products with advanced ordering and management system',
+    image: 'https://images.unsplash.com/photo-1628088062854-d1870b4553da?q=80&w=800&auto=format&fit=crop',
+    category: 'B2B Platform',
+    url: 'https://b2b.flavidairysolution.com/',
+  },
+  {
+    title: 'Flavi Dairy CRM',
+    description: 'Customer relationship management system for dairy business operations',
+    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800&auto=format&fit=crop',
+    category: 'CRM Development',
+    url: 'https://crm.flavidairysolution.com/',
+  },
+  {
+    title: 'Pakmon',
+    description: 'Modern web application with interactive features and responsive design',
+    image: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=800&auto=format&fit=crop',
+    category: 'Web Application',
+    url: 'https://pakmon.vercel.app/',
+  },
+  {
+    title: 'Invar Pharmaceutical',
+    description: 'Professional pharmaceutical company website with product catalog and information',
+    image: 'https://images.unsplash.com/photo-1587854692152-cbe660dbde88?q=80&w=800&auto=format&fit=crop',
+    category: 'Corporate Website',
+    url: 'https://www.invarpharmaceutical.com/',
+  },
+  {
+    title: 'Long Video Platform',
+    description: 'Advanced video hosting and streaming platform with extended content support',
+    image: 'https://images.unsplash.com/photo-1492619375914-88005aa9e8fb?q=80&w=800&auto=format&fit=crop',
+    category: 'Video Platform',
+    url: 'https://long-veo-videos.vercel.app/',
+  },
+  {
+    title: 'Shiksha Finder Platform',
+    description: 'Complete educational platform development for finding and connecting with educational institutions',
+    image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=800&auto=format&fit=crop',
+    category: 'Platform Development',
+    url: 'https://platform.shikshafinder.com',
   },
 ];
 
