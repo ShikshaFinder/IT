@@ -51,8 +51,8 @@ export const ServicesSection = () => {
         <div className="mb-12 p-6 rounded-lg border-2 border-primary/30 bg-gradient-to-r from-primary/5 to-primary/10 text-center">
           <div className="flex flex-col md:flex-row items-center justify-center gap-4">
             <div className="flex items-baseline gap-2">
-              <span className="text-4xl md:text-5xl text-muted-foreground ">Starting from Just</span>
-              <span className="text-xl  text-primary">4999</span>
+              <span className="text-lg text-muted-foreground">Starting from Just</span>
+              <span className="text-4xl md:text-5xl font-bold text-primary">₹4999</span>
             </div>
             <div className="h-px md:h-8 md:w-px bg-border"></div>
             <div className="text-center md:text-left">
